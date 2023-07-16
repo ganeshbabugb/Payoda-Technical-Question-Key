@@ -1,0 +1,13 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡³ÑÓûÿÿÿÿ8ñÒ“Ç•1
+7
+java:S1220""Move this file to a named package.8Ó“Ç•1
+n
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ïçöÔÿÿÿÿÿ8Ìâ¢Ç•1
+d
+java:S1854"BRemove this useless assignment to local variable "bufferedReader".(ïçöÔÿÿÿÿÿ8Ó“Ç•1
+U
+java:S1481"3Remove this unused "bufferedReader" local variable.(ïçöÔÿÿÿÿÿ8Ó“Ç•1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—½Äÿ8Ó“Ç•1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(šôöß8Ó“Ç•1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(“ãÈ®8Ó“Ç•1
