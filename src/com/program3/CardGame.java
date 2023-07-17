@@ -1,4 +1,4 @@
-package Program3;
+package com.program3;
 
 public class CardGame {
     private final int c1;
@@ -10,10 +10,14 @@ public class CardGame {
     }
 
     public int output() {
-        if (c1 > 0 && c2 > 0) return reverseNumberAndSum(c1, c2); //Both Positive
-        else if (c1 < 0 && c2 < 0) return changeSignAndSum(c1, c2); // Both Negative
-        else if (c2 < 0) return reverseNumberAndReverseSign(c1, c2); // + and -
-        else return reverseNumberAndReverseSign(c2, c1); //- and +
+        if (c1 > 0 && c2 > 0)
+            return reverseNumberAndSum(c1, c2); //Both Positive
+        else if (c1 < 0 && c2 < 0)
+            return changeSignAndSum(c1, c2); // Both Negative
+        else if (c2 < 0)
+            return reverseNumberAndReverseSign(c1, c2); // + and -
+        else
+            return reverseNumberAndReverseSign(c2, c1); //- and +
     }
 
     private int reverseNumberAndReverseSign(int n1, int n2) {
@@ -27,16 +31,6 @@ public class CardGame {
     private int reverseNumberAndSum(int n1, int n2) {
         return reverseNumber(n1) + reverseNumber(n2);
     }
-
-//    private int reverseNumber(int number) {
-//        int digit, sum = 0;
-//        while (number > 0) {
-//            digit = number % 10;
-//            sum = (sum * 10) + digit;
-//            number /= 10;
-//        }
-//        return sum;
-//    }
 
     // Easy One Compared to Traditional Method
     private int reverseNumber(int number) {
