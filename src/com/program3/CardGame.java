@@ -10,14 +10,10 @@ public class CardGame {
     }
 
     public int output() {
-        if (c1 > 0 && c2 > 0)
-            return reverseNumberAndSum(c1, c2); //Both Positive
-        else if (c1 < 0 && c2 < 0)
-            return changeSignAndSum(c1, c2); // Both Negative
-        else if (c2 < 0)
-            return reverseNumberAndReverseSign(c1, c2); // + and -
-        else
-            return reverseNumberAndReverseSign(c2, c1); //- and +
+        if (c1 > 0 && c2 > 0) return reverseNumberAndSum(c1, c2); //Both Positive
+        else if (c1 < 0 && c2 < 0) return changeSignAndSum(c1, c2); // Both Negative
+        else if (c2 < 0) return reverseNumberAndReverseSign(c1, c2); // + and -
+        else return reverseNumberAndReverseSign(c2, c1); //- and +
     }
 
     private int reverseNumberAndReverseSign(int n1, int n2) {
